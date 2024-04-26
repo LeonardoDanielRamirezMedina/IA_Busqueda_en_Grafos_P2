@@ -32,7 +32,7 @@ class Grafo:
         # Método para construir un camino desde el nodo inicial hasta el nodo destino
         pass  # Este método aún no está implementado y necesita ser completado
 
-# Ejemplo de uso
+#se crea el grafo en el que utilizaremos la busqueda
 if __name__ == "__main__":
     adyacencia = {
         "A": ["B", "C"],
@@ -49,8 +49,8 @@ if __name__ == "__main__":
     nodo_objetivo = "G"
 
     print("Recorrido en profundidad:")
-    mi_grafo.profundidad(nodo_inicio)  # Realiza un recorrido en profundidad desde el nodo de inicio
+    mi_grafo.profundidad(nodo_inicio)  # hacemos un recorrido en profundidad desde el nodo de inicio
 
-    # Construye el camino desde el nodo de inicio hasta el nodo objetivo
-    camino = mi_grafo.construir_camino(nodo_objetivo)  # Intenta construir un camino desde el nodo de inicio hasta el objetivo
+    # Construye el camino desde el nodo de inicio hasta el nodoque establecimos como objetivo
+    camino = mi_grafo.construir_camino(nodo_objetivo)  # se crea un camino desde el nodo de inicio hasta el objetivo
     print("\nCamino desde A hasta G:", camino)  # Imprime el camino desde A hasta G 
